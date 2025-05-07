@@ -1,11 +1,18 @@
 import xarray as xr
 import numpy as np
 import wradlib.georef as georef
+import pandas as pd
+import json
 import wradlib.util as util
 import pyproj
 from osgeo import _osr
 from osgeo import osr
 print("GDal is working")
+
+def calc_rainfall_rate(dBZ, a=288, b=1.53):
+    Z = 10 ** (dBZ/10)
+    R = (Z/a) ** (1/b)
+    return round(R,4)
 
 file_path = "2024062612321800dBZ.vol.nc"
 ds = xr.open_dataset(file_path, decode_times=False)
@@ -47,7 +54,7 @@ trg_crs.ImportFromEPSG(4326)  # WGS84
 
 
 cloud_coordinates = []
-reflectivity_threshold = 40
+reflectivity_threshold = 35
 max_range_km = 250
 max_range_meters = max_range_km * 1000
 
@@ -88,16 +95,20 @@ for i in range(num_elevation_angles):
                 cloud_lat = coords[1]  # Second element is latitude
                 cloud_alt = coords[2]  # Third element is altitude
 
+                rainfall_rate = calc_rainfall_rate(current_reflectivity) #rainfall rate in mm/h
+
                 cloud_coordinates.append({
-                    'latitude': cloud_lat,
-                    'longitude': cloud_lon,
-                    'altitude': cloud_alt,
-                    'reflectivity': current_reflectivity
+                    'latitude': float(cloud_lat),
+                    'longitude': float(cloud_lon),
+                    'altitude': float(cloud_alt),
+                    'reflectivity': float(current_reflectivity),
+                    'rainfall_rate': float(rainfall_rate)
                 })
 
 # After the loops, save the results if needed
 if cloud_coordinates:
-    import pandas as pd
     df = pd.DataFrame(cloud_coordinates)
-    df.to_csv('radar_points.csv', index=False)
+    df.to_csv('radar_points_4.csv', index=False)
+    json_data = df.astype(float).to_dict(orient='records')
+    df.astype(float).to_json('radar_points_4.json', orient='records', indent=4)
     print(f"Found {len(cloud_coordinates)} points above threshold")

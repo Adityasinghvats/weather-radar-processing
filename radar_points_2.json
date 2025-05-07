@@ -1,0 +1,1178 @@
+[
+    {
+        "latitude": 22.557047277556116,
+        "longitude": 88.37251781793847,
+        "altitude": 82.99652669392526,
+        "reflectivity": 33.5,
+        "rainfall_rate": 3.8203001022338867
+    },
+    {
+        "latitude": 22.508206251893792,
+        "longitude": 88.41649273595125,
+        "altitude": 112.0984591897577,
+        "reflectivity": 40.49275207519531,
+        "rainfall_rate": 10.943099975585938
+    },
+    {
+        "latitude": 21.3333451263435,
+        "longitude": 89.53431885100937,
+        "altitude": 2687.659060647711,
+        "reflectivity": 31.50694465637207,
+        "rainfall_rate": 2.8303000926971436
+    },
+    {
+        "latitude": 21.326582299129687,
+        "longitude": 89.54069876795106,
+        "altitude": 2712.749703168869,
+        "reflectivity": 35.49652862548828,
+        "rainfall_rate": 5.159299850463867
+    },
+    {
+        "latitude": 21.318729129416763,
+        "longitude": 89.51643308621931,
+        "altitude": 2687.659060647711,
+        "reflectivity": 32.47916793823242,
+        "rainfall_rate": 3.27620005607605
+    },
+    {
+        "latitude": 21.311887369309492,
+        "longitude": 89.52271579644326,
+        "altitude": 2712.749703168869,
+        "reflectivity": 35.01041793823242,
+        "rainfall_rate": 4.795300006866455
+    },
+    {
+        "latitude": 22.51070954627905,
+        "longitude": 88.40481330225269,
+        "altitude": 107.58811016567051,
+        "reflectivity": 48.0,
+        "rainfall_rate": 33.86949920654297
+    },
+    {
+        "latitude": 22.51006901565356,
+        "longitude": 88.40394479179147,
+        "altitude": 107.58811016567051,
+        "reflectivity": 43.08571243286133,
+        "rainfall_rate": 16.166400909423828
+    },
+    {
+        "latitude": 22.5309916028539,
+        "longitude": 88.38540038274938,
+        "altitude": 94.76292223669589,
+        "reflectivity": 33.84722137451172,
+        "rainfall_rate": 4.025199890136719
+    },
+    {
+        "latitude": 22.523334615174893,
+        "longitude": 88.39061183587394,
+        "altitude": 98.92034150846303,
+        "reflectivity": 31.0,
+        "rainfall_rate": 2.6224000453948975
+    },
+    {
+        "latitude": 22.5088207317738,
+        "longitude": 88.40218044573896,
+        "altitude": 107.58811016567051,
+        "reflectivity": 35.5,
+        "rainfall_rate": 5.1620001792907715
+    },
+    {
+        "latitude": 22.492824262861767,
+        "longitude": 88.4115315160139,
+        "altitude": 116.72645109519362,
+        "reflectivity": 33.9375,
+        "rainfall_rate": 4.0802998542785645
+    },
+    {
+        "latitude": 22.492101594644247,
+        "longitude": 88.4104041419209,
+        "altitude": 116.72645109519362,
+        "reflectivity": 35.0,
+        "rainfall_rate": 4.787799835205078
+    },
+    {
+        "latitude": 21.356515979763277,
+        "longitude": 89.18363368421753,
+        "altitude": 2120.746763151139,
+        "reflectivity": 33.371429443359375,
+        "rainfall_rate": 3.7471001148223877
+    },
+    {
+        "latitude": 21.348893461863803,
+        "longitude": 89.18879591272903,
+        "altitude": 2143.016265472397,
+        "reflectivity": 34.271427154541016,
+        "rainfall_rate": 4.290599822998047
+    },
+    {
+        "latitude": 22.550727747200998,
+        "longitude": 88.36472981518388,
+        "altitude": 82.99652669392526,
+        "reflectivity": 32.576087951660156,
+        "rainfall_rate": 3.324399948120117
+    },
+    {
+        "latitude": 22.542819004856256,
+        "longitude": 88.36942199791658,
+        "altitude": 86.80101466365159,
+        "reflectivity": 37.5,
+        "rainfall_rate": 6.974800109863281
+    },
+    {
+        "latitude": 22.54261675323963,
+        "longitude": 88.36902054398621,
+        "altitude": 86.80101466365159,
+        "reflectivity": 37.5,
+        "rainfall_rate": 6.974800109863281
+    },
+    {
+        "latitude": 22.542420914980287,
+        "longitude": 88.36861910307671,
+        "altitude": 86.80101466365159,
+        "reflectivity": 37.5,
+        "rainfall_rate": 6.974800109863281
+    },
+    {
+        "latitude": 22.50912728439479,
+        "longitude": 88.38383090033447,
+        "altitude": 103.19540421292186,
+        "reflectivity": 31.5,
+        "rainfall_rate": 2.8273000717163086
+    },
+    {
+        "latitude": 22.549916998275624,
+        "longitude": 88.36298360976754,
+        "altitude": 82.99652669392526,
+        "reflectivity": 32.0,
+        "rainfall_rate": 3.04830002784729
+    },
+    {
+        "latitude": 22.525217768771256,
+        "longitude": 88.37496360302576,
+        "altitude": 94.76292223669589,
+        "reflectivity": 30.5,
+        "rainfall_rate": 2.432300090789795
+    },
+    {
+        "latitude": 22.524948022847294,
+        "longitude": 88.37430739536966,
+        "altitude": 94.76292223669589,
+        "reflectivity": 30.5,
+        "rainfall_rate": 2.432300090789795
+    },
+    {
+        "latitude": 22.516665721042695,
+        "longitude": 88.37818049922606,
+        "altitude": 98.92034150846303,
+        "reflectivity": 31.0,
+        "rainfall_rate": 2.6224000453948975
+    },
+    {
+        "latitude": 22.489706068929173,
+        "longitude": 88.38404408534205,
+        "altitude": 112.0984591897577,
+        "reflectivity": 31.359155654907227,
+        "rainfall_rate": 2.7679998874664307
+    },
+    {
+        "latitude": 22.55741820388693,
+        "longitude": 88.35678349662113,
+        "altitude": 79.30968281440437,
+        "reflectivity": 35.0,
+        "rainfall_rate": 4.787799835205078
+    },
+    {
+        "latitude": 22.557372181899034,
+        "longitude": 88.35659412347174,
+        "altitude": 79.30968281440437,
+        "reflectivity": 35.0,
+        "rainfall_rate": 4.787799835205078
+    },
+    {
+        "latitude": 22.49541262921675,
+        "longitude": 88.37014018618595,
+        "altitude": 107.58811016567051,
+        "reflectivity": 40.0,
+        "rainfall_rate": 10.160900115966797
+    },
+    {
+        "latitude": 22.495205691132316,
+        "longitude": 88.36905404137042,
+        "altitude": 107.58811016567051,
+        "reflectivity": 40.0,
+        "rainfall_rate": 10.160900115966797
+    },
+    {
+        "latitude": 22.548297189815187,
+        "longitude": 88.35740105691487,
+        "altitude": 82.99652669392526,
+        "reflectivity": 38.0,
+        "rainfall_rate": 7.519899845123291
+    },
+    {
+        "latitude": 22.49501231099597,
+        "longitude": 88.36796500836216,
+        "altitude": 107.58811016567051,
+        "reflectivity": 50.0,
+        "rainfall_rate": 45.764400482177734
+    },
+    {
+        "latitude": 22.548244655702337,
+        "longitude": 88.35708214426955,
+        "altitude": 82.99652669392526,
+        "reflectivity": 37.04999923706055,
+        "rainfall_rate": 6.518099784851074
+    },
+    {
+        "latitude": 22.494833762920997,
+        "longitude": 88.36688111171084,
+        "altitude": 107.58811016567051,
+        "reflectivity": 48.45000076293945,
+        "rainfall_rate": 36.242698669433594
+    },
+    {
+        "latitude": 22.494667502889392,
+        "longitude": 88.36578690766616,
+        "altitude": 107.58811016567051,
+        "reflectivity": 34.043479919433594,
+        "rainfall_rate": 4.145899772644043
+    },
+    {
+        "latitude": 22.51203206498211,
+        "longitude": 88.35857720560436,
+        "altitude": 98.92034150846303,
+        "reflectivity": 31.0,
+        "rainfall_rate": 2.6224000453948975
+    },
+    {
+        "latitude": 22.51187108299458,
+        "longitude": 88.3560454643455,
+        "altitude": 98.92034150846303,
+        "reflectivity": 30.907894134521484,
+        "rainfall_rate": 2.5862998962402344
+    },
+    {
+        "latitude": 22.502813639173016,
+        "longitude": 88.35553671901994,
+        "altitude": 103.19540421292186,
+        "reflectivity": 32.5,
+        "rainfall_rate": 3.2864999771118164
+    },
+    {
+        "latitude": 22.5027882139638,
+        "longitude": 88.35456573881117,
+        "altitude": 103.19540421292186,
+        "reflectivity": 32.167720794677734,
+        "rainfall_rate": 3.126199960708618
+    },
+    {
+        "latitude": 22.521516276517758,
+        "longitude": 88.3441579797162,
+        "altitude": 94.76292223669589,
+        "reflectivity": 32.306339263916016,
+        "rainfall_rate": 3.1921000480651855
+    },
+    {
+        "latitude": 22.521630017822165,
+        "longitude": 88.34345616054149,
+        "altitude": 94.76292223669589,
+        "reflectivity": 36.739131927490234,
+        "rainfall_rate": 6.220200061798096
+    },
+    {
+        "latitude": 22.512890428757764,
+        "longitude": 88.34088885675716,
+        "altitude": 98.92034150846303,
+        "reflectivity": 30.246376037597656,
+        "rainfall_rate": 2.341200113296509
+    },
+    {
+        "latitude": 22.552627865904725,
+        "longitude": 88.3249299599806,
+        "altitude": 86.80101466365159,
+        "reflectivity": 30.40217399597168,
+        "rainfall_rate": 2.3968000411987305
+    },
+    {
+        "latitude": 22.55297681427827,
+        "longitude": 88.3246760177123,
+        "altitude": 86.80101466365159,
+        "reflectivity": 31.5,
+        "rainfall_rate": 2.8273000717163086
+    },
+    {
+        "latitude": 22.551301406935263,
+        "longitude": 88.29327575152858,
+        "altitude": 98.92034150846303,
+        "reflectivity": 30.5,
+        "rainfall_rate": 2.432300090789795
+    },
+    {
+        "latitude": 22.552047587126843,
+        "longitude": 88.29300355548425,
+        "altitude": 98.92034150846303,
+        "reflectivity": 30.5,
+        "rainfall_rate": 2.432300090789795
+    },
+    {
+        "latitude": 22.552797078190796,
+        "longitude": 88.29274216882287,
+        "altitude": 98.92034150846303,
+        "reflectivity": 30.5,
+        "rainfall_rate": 2.432300090789795
+    },
+    {
+        "latitude": 22.566927416652984,
+        "longitude": 88.32899517350354,
+        "altitude": 82.99652669392526,
+        "reflectivity": 33.0,
+        "rainfall_rate": 3.5434000492095947
+    },
+    {
+        "latitude": 22.56722693665994,
+        "longitude": 88.32894569186071,
+        "altitude": 82.99652669392526,
+        "reflectivity": 32.02857208251953,
+        "rainfall_rate": 3.0613999366760254
+    },
+    {
+        "latitude": 22.42841258509537,
+        "longitude": 86.54740510609876,
+        "altitude": 2763.2835920695215,
+        "reflectivity": 31.535715103149414,
+        "rainfall_rate": 2.842600107192993
+    },
+    {
+        "latitude": 22.427596592419054,
+        "longitude": 86.53773767502543,
+        "altitude": 2788.726836355403,
+        "reflectivity": 33.900001525878906,
+        "rainfall_rate": 4.057300090789795
+    },
+    {
+        "latitude": 22.426780026007695,
+        "longitude": 86.52807041498103,
+        "altitude": 2814.2876124568284,
+        "reflectivity": 31.628570556640625,
+        "rainfall_rate": 2.8826000690460205
+    },
+    {
+        "latitude": 22.453012772398182,
+        "longitude": 86.57441089303745,
+        "altitude": 2687.659060647711,
+        "reflectivity": 36.63768005371094,
+        "rainfall_rate": 6.125999927520752
+    },
+    {
+        "latitude": 22.452319041691435,
+        "longitude": 86.56473053873941,
+        "altitude": 2712.749703168869,
+        "reflectivity": 35.18840408325195,
+        "rainfall_rate": 4.92549991607666
+    },
+    {
+        "latitude": 22.451624734430904,
+        "longitude": 86.55505033806129,
+        "altitude": 2737.957880659029,
+        "reflectivity": 37.41304397583008,
+        "rainfall_rate": 6.884200096130371
+    },
+    {
+        "latitude": 22.45092985067162,
+        "longitude": 86.5453702913448,
+        "altitude": 2763.2835920695215,
+        "reflectivity": 37.963768005371094,
+        "rainfall_rate": 7.479000091552734
+    },
+    {
+        "latitude": 22.450234390468715,
+        "longitude": 86.53569039893165,
+        "altitude": 2788.726836355403,
+        "reflectivity": 39.826087951660156,
+        "rainfall_rate": 9.89840030670166
+    },
+    {
+        "latitude": 22.449538353877386,
+        "longitude": 86.52601066116348,
+        "altitude": 2814.2876124568284,
+        "reflectivity": 36.27536392211914,
+        "rainfall_rate": 5.800899982452393
+    },
+    {
+        "latitude": 22.476336491421442,
+        "longitude": 86.59211516919977,
+        "altitude": 2637.8303846642375,
+        "reflectivity": 33.14285659790039,
+        "rainfall_rate": 3.6203999519348145
+    },
+    {
+        "latitude": 22.475764607094845,
+        "longitude": 86.58242386018696,
+        "altitude": 2662.6859541349113,
+        "reflectivity": 38.14285659790039,
+        "rainfall_rate": 7.6834001541137695
+    },
+    {
+        "latitude": 22.475192143688773,
+        "longitude": 86.5727326875892,
+        "altitude": 2687.659060647711,
+        "reflectivity": 38.14285659790039,
+        "rainfall_rate": 7.6834001541137695
+    },
+    {
+        "latitude": 22.474619101250415,
+        "longitude": 86.56304165175061,
+        "altitude": 2712.749703168869,
+        "reflectivity": 37.42856979370117,
+        "rainfall_rate": 6.900300025939941
+    },
+    {
+        "latitude": 22.474045479827016,
+        "longitude": 86.55335075301532,
+        "altitude": 2737.957880659029,
+        "reflectivity": 40.35714340209961,
+        "rainfall_rate": 10.722000122070312
+    },
+    {
+        "latitude": 22.47347127946595,
+        "longitude": 86.54365999172745,
+        "altitude": 2763.2835920695215,
+        "reflectivity": 42.07143020629883,
+        "rainfall_rate": 13.877799987792969
+    },
+    {
+        "latitude": 22.472896500214645,
+        "longitude": 86.53396936823107,
+        "altitude": 2788.726836355403,
+        "reflectivity": 42.57143020629883,
+        "rainfall_rate": 14.962400436401367
+    },
+    {
+        "latitude": 22.472321142120617,
+        "longitude": 86.52427888287015,
+        "altitude": 2814.2876124568284,
+        "reflectivity": 38.57143020629883,
+        "rainfall_rate": 8.195300102233887
+    },
+    {
+        "latitude": 22.471745205231464,
+        "longitude": 86.51458853598872,
+        "altitude": 2839.965919315815,
+        "reflectivity": 30.714284896850586,
+        "rainfall_rate": 2.51200008392334
+    },
+    {
+        "latitude": 22.49813533881594,
+        "longitude": 86.59078316897076,
+        "altitude": 2637.8303846642375,
+        "reflectivity": 33.880435943603516,
+        "rainfall_rate": 4.045400142669678
+    },
+    {
+        "latitude": 22.497683400620808,
+        "longitude": 86.58108300422451,
+        "altitude": 2662.6859541349113,
+        "reflectivity": 39.0217399597168,
+        "rainfall_rate": 8.76990032196045
+    },
+    {
+        "latitude": 22.497230881146702,
+        "longitude": 86.57138295938014,
+        "altitude": 2687.659060647711,
+        "reflectivity": 41.14130401611328,
+        "rainfall_rate": 12.0649995803833
+    },
+    {
+        "latitude": 22.49677778043315,
+        "longitude": 86.56168303478384,
+        "altitude": 2712.749703168869,
+        "reflectivity": 40.619564056396484,
+        "rainfall_rate": 11.153900146484375
+    },
+    {
+        "latitude": 22.496324098519732,
+        "longitude": 86.55198323078173,
+        "altitude": 2737.957880659029,
+        "reflectivity": 45.84782791137695,
+        "rainfall_rate": 24.498699188232422
+    },
+    {
+        "latitude": 22.49586983544614,
+        "longitude": 86.5422835477199,
+        "altitude": 2763.2835920695215,
+        "reflectivity": 45.85869598388672,
+        "rainfall_rate": 24.53890037536621
+    },
+    {
+        "latitude": 22.495414991252122,
+        "longitude": 86.53258398594443,
+        "altitude": 2788.726836355403,
+        "reflectivity": 42.58695602416992,
+        "rainfall_rate": 14.997400283813477
+    },
+    {
+        "latitude": 22.49495956597755,
+        "longitude": 86.52288454580135,
+        "altitude": 2814.2876124568284,
+        "reflectivity": 40.94565200805664,
+        "rainfall_rate": 11.71500015258789
+    },
+    {
+        "latitude": 22.494503559662334,
+        "longitude": 86.51318522763667,
+        "altitude": 2839.965919315815,
+        "reflectivity": 30.80434799194336,
+        "rainfall_rate": 2.546299934387207
+    },
+    {
+        "latitude": 22.519774617718788,
+        "longitude": 86.58004985865368,
+        "altitude": 2662.6859541349113,
+        "reflectivity": 30.339284896850586,
+        "rainfall_rate": 2.3742001056671143
+    },
+    {
+        "latitude": 22.519443004527623,
+        "longitude": 86.57034260945073,
+        "altitude": 2687.659060647711,
+        "reflectivity": 38.27857208251953,
+        "rainfall_rate": 7.841899871826172
+    },
+    {
+        "latitude": 22.519110808075993,
+        "longitude": 86.56063546376595,
+        "altitude": 2712.749703168869,
+        "reflectivity": 44.24285888671875,
+        "rainfall_rate": 19.24169921875
+    },
+    {
+        "latitude": 22.518778028395744,
+        "longitude": 86.5509284219471,
+        "altitude": 2737.957880659029,
+        "reflectivity": 46.24285888671875,
+        "rainfall_rate": 25.999399185180664
+    },
+    {
+        "latitude": 22.518444665518803,
+        "longitude": 86.54122148434199,
+        "altitude": 2763.2835920695215,
+        "reflectivity": 43.01071548461914,
+        "rainfall_rate": 15.984999656677246
+    },
+    {
+        "latitude": 22.51811071947716,
+        "longitude": 86.53151465129835,
+        "altitude": 2788.726836355403,
+        "reflectivity": 35.485713958740234,
+        "rainfall_rate": 5.150899887084961
+    },
+    {
+        "latitude": 22.51777619030292,
+        "longitude": 86.52180792316395,
+        "altitude": 2814.2876124568284,
+        "reflectivity": 31.28928565979004,
+        "rainfall_rate": 2.7390999794006348
+    },
+    {
+        "latitude": 22.54145570519562,
+        "longitude": 86.55991018266224,
+        "altitude": 2712.749703168869,
+        "reflectivity": 34.802818298339844,
+        "rainfall_rate": 4.647799968719482
+    },
+    {
+        "latitude": 22.541243911158247,
+        "longitude": 86.55019764352932,
+        "altitude": 2737.957880659029,
+        "reflectivity": 36.2253532409668,
+        "rainfall_rate": 5.757400035858154
+    },
+    {
+        "latitude": 22.541031532091797,
+        "longitude": 86.54048519179364,
+        "altitude": 2763.2835920695215,
+        "reflectivity": 33.10211181640625,
+        "rainfall_rate": 3.5982000827789307
+    },
+    {
+        "latitude": 22.56517898264092,
+        "longitude": 86.71497752310934,
+        "altitude": 2325.404314957559,
+        "reflectivity": 30.917856216430664,
+        "rainfall_rate": 2.5901999473571777
+    },
+    {
+        "latitude": 22.565097615022395,
+        "longitude": 86.70526014982556,
+        "altitude": 2348.7318108193576,
+        "reflectivity": 33.532142639160156,
+        "rainfall_rate": 3.8387999534606934
+    },
+    {
+        "latitude": 22.565015660497288,
+        "longitude": 86.69554284144264,
+        "altitude": 2372.1768567487597,
+        "reflectivity": 31.950000762939453,
+        "rainfall_rate": 3.025399923324585
+    },
+    {
+        "latitude": 22.564933119080617,
+        "longitude": 86.6858255983109,
+        "altitude": 2395.7394517697394,
+        "reflectivity": 32.81071472167969,
+        "rainfall_rate": 3.4439001083374023
+    },
+    {
+        "latitude": 22.564849990787504,
+        "longitude": 86.67610842078066,
+        "altitude": 2419.4195949062705,
+        "reflectivity": 32.45000076293945,
+        "rainfall_rate": 3.261899948120117
+    },
+    {
+        "latitude": 22.564766275633136,
+        "longitude": 86.66639130920217,
+        "altitude": 2443.217285176739,
+        "reflectivity": 30.032142639160156,
+        "rainfall_rate": 2.266900062561035
+    },
+    {
+        "latitude": 22.585449714966206,
+        "longitude": 86.71492683376009,
+        "altitude": 2325.404314957559,
+        "reflectivity": 31.441177368164062,
+        "rainfall_rate": 2.8024001121520996
+    },
+    {
+        "latitude": 22.585488576948716,
+        "longitude": 86.70520773010863,
+        "altitude": 2348.7318108193576,
+        "reflectivity": 38.338233947753906,
+        "rainfall_rate": 7.912600040435791
+    },
+    {
+        "latitude": 22.5855268507385,
+        "longitude": 86.69548867451142,
+        "altitude": 2372.1768567487597,
+        "reflectivity": 37.55882263183594,
+        "rainfall_rate": 7.036900043487549
+    },
+    {
+        "latitude": 22.5855645363428,
+        "longitude": 86.68576966731938,
+        "altitude": 2395.7394517697394,
+        "reflectivity": 37.22058868408203,
+        "rainfall_rate": 6.687600135803223
+    },
+    {
+        "latitude": 22.585601633768956,
+        "longitude": 86.67605070888335,
+        "altitude": 2419.4195949062705,
+        "reflectivity": 37.360294342041016,
+        "rainfall_rate": 6.829699993133545
+    },
+    {
+        "latitude": 22.585638143024383,
+        "longitude": 86.6663317995542,
+        "altitude": 2443.217285176739,
+        "reflectivity": 34.55882263183594,
+        "rainfall_rate": 4.480199813842773
+    },
+    {
+        "latitude": 22.585674064116592,
+        "longitude": 86.65661293968274,
+        "altitude": 2467.1325215920806,
+        "reflectivity": 31.0,
+        "rainfall_rate": 2.6224000453948975
+    },
+    {
+        "latitude": 22.58581186700649,
+        "longitude": 86.61773800179061,
+        "altitude": 2563.968908807263,
+        "reflectivity": 31.301469802856445,
+        "rainfall_rate": 2.7441000938415527
+    },
+    {
+        "latitude": 22.58584484739829,
+        "longitude": 86.60801939447,
+        "altitude": 2588.4718609768897,
+        "reflectivity": 31.441177368164062,
+        "rainfall_rate": 2.8024001121520996
+    },
+    {
+        "latitude": 22.585877239673746,
+        "longitude": 86.59830083871196,
+        "altitude": 2613.0923532713205,
+        "reflectivity": 31.639705657958984,
+        "rainfall_rate": 2.887399911880493
+    },
+    {
+        "latitude": 22.606025816699713,
+        "longitude": 86.70545066255968,
+        "altitude": 2348.7318108193576,
+        "reflectivity": 38.02941131591797,
+        "rainfall_rate": 7.553299903869629
+    },
+    {
+        "latitude": 22.606185198971357,
+        "longitude": 86.6957315894871,
+        "altitude": 2372.1768567487597,
+        "reflectivity": 37.30147171020508,
+        "rainfall_rate": 6.769499778747559
+    },
+    {
+        "latitude": 22.606343991961513,
+        "longitude": 86.68601254780403,
+        "altitude": 2395.7394517697394,
+        "reflectivity": 34.80147171020508,
+        "rainfall_rate": 4.646900177001953
+    },
+    {
+        "latitude": 22.606502195669673,
+        "longitude": 86.67629353786151,
+        "altitude": 2419.4195949062705,
+        "reflectivity": 34.992645263671875,
+        "rainfall_rate": 4.78249979019165
+    },
+    {
+        "latitude": 22.606659810095426,
+        "longitude": 86.66657456001066,
+        "altitude": 2443.217285176739,
+        "reflectivity": 32.29411697387695,
+        "rainfall_rate": 3.186300039291382
+    },
+    {
+        "latitude": 22.62655731258478,
+        "longitude": 86.70599045299704,
+        "altitude": 2348.7318108193576,
+        "reflectivity": 32.5,
+        "rainfall_rate": 3.2864999771118164
+    },
+    {
+        "latitude": 22.57514587539583,
+        "longitude": 88.28024298232171,
+        "altitude": 103.19540421292186,
+        "reflectivity": 30.54929542541504,
+        "rainfall_rate": 2.4504001140594482
+    },
+    {
+        "latitude": 22.837746586237195,
+        "longitude": 86.80806760327383,
+        "altitude": 2165.4033263940364,
+        "reflectivity": 33.5,
+        "rainfall_rate": 3.8203001022338867
+    },
+    {
+        "latitude": 22.8457790013211,
+        "longitude": 86.76015725704387,
+        "altitude": 2279.1019772905856,
+        "reflectivity": 32.0,
+        "rainfall_rate": 3.04830002784729
+    },
+    {
+        "latitude": 22.856978661548315,
+        "longitude": 86.81196883287393,
+        "altitude": 2165.4033263940364,
+        "reflectivity": 36.220001220703125,
+        "rainfall_rate": 5.752699851989746
+    },
+    {
+        "latitude": 22.858705568806162,
+        "longitude": 86.80240994873195,
+        "altitude": 2187.9079449828714,
+        "reflectivity": 35.72999954223633,
+        "rainfall_rate": 5.343800067901611
+    },
+    {
+        "latitude": 22.860431892403618,
+        "longitude": 86.7928508738334,
+        "altitude": 2210.5301203075796,
+        "reflectivity": 38.52000045776367,
+        "rainfall_rate": 8.132100105285645
+    },
+    {
+        "latitude": 22.86215763223972,
+        "longitude": 86.7832916085,
+        "altitude": 2233.2698514312506,
+        "reflectivity": 40.36000061035156,
+        "rainfall_rate": 10.72659969329834
+    },
+    {
+        "latitude": 22.863882788213644,
+        "longitude": 86.77373215305343,
+        "altitude": 2256.1271374076605,
+        "reflectivity": 38.709999084472656,
+        "rainfall_rate": 8.368000030517578
+    },
+    {
+        "latitude": 22.865607360224626,
+        "longitude": 86.76417250781552,
+        "altitude": 2279.1019772905856,
+        "reflectivity": 34.380001068115234,
+        "rainfall_rate": 4.361299991607666
+    },
+    {
+        "latitude": 22.87602275700103,
+        "longitude": 86.81611828173666,
+        "altitude": 2165.4033263940364,
+        "reflectivity": 38.797298431396484,
+        "rainfall_rate": 8.478599548339844
+    },
+    {
+        "latitude": 22.877867768584203,
+        "longitude": 86.80658379295339,
+        "altitude": 2187.9079449828714,
+        "reflectivity": 39.02702713012695,
+        "rainfall_rate": 8.776900291442871
+    },
+    {
+        "latitude": 22.879712198380982,
+        "longitude": 86.79704909718272,
+        "altitude": 2210.5301203075796,
+        "reflectivity": 38.47297286987305,
+        "rainfall_rate": 8.074700355529785
+    },
+    {
+        "latitude": 22.88155604628318,
+        "longitude": 86.78751419474177,
+        "altitude": 2233.2698514312506,
+        "reflectivity": 40.83783721923828,
+        "rainfall_rate": 11.526399612426758
+    },
+    {
+        "latitude": 22.8833993121827,
+        "longitude": 86.77797908594768,
+        "altitude": 2256.1271374076605,
+        "reflectivity": 39.35135269165039,
+        "rainfall_rate": 9.215900421142578
+    },
+    {
+        "latitude": 22.8852419959715,
+        "longitude": 86.76844377111767,
+        "altitude": 2279.1019772905856,
+        "reflectivity": 37.378379821777344,
+        "rainfall_rate": 6.848299980163574
+    },
+    {
+        "latitude": 22.895150955982253,
+        "longitude": 86.82057535075766,
+        "altitude": 2165.4033263940364,
+        "reflectivity": 31.5,
+        "rainfall_rate": 2.8273000717163086
+    },
+    {
+        "latitude": 22.8971146101058,
+        "longitude": 86.81106716549394,
+        "altitude": 2187.9079449828714,
+        "reflectivity": 31.0,
+        "rainfall_rate": 2.6224000453948975
+    },
+    {
+        "latitude": 22.904963428488145,
+        "longitude": 86.77303219561172,
+        "altitude": 2279.1019772905856,
+        "reflectivity": 33.0,
+        "rainfall_rate": 3.5434000492095947
+    },
+    {
+        "latitude": 22.57680431399399,
+        "longitude": 88.34008830519785,
+        "altitude": 79.30968281440437,
+        "reflectivity": 30.184782028198242,
+        "rainfall_rate": 2.3196001052856445
+    },
+    {
+        "latitude": 22.73509057516117,
+        "longitude": 88.28557843944374,
+        "altitude": 163.6722746230662,
+        "reflectivity": 35.0,
+        "rainfall_rate": 4.787799835205078
+    },
+    {
+        "latitude": 22.600849392650034,
+        "longitude": 88.34350065227632,
+        "altitude": 86.80101466365159,
+        "reflectivity": 31.5,
+        "rainfall_rate": 2.8273000717163086
+    },
+    {
+        "latitude": 22.602080718078625,
+        "longitude": 88.35431839716625,
+        "altitude": 86.80101466365159,
+        "reflectivity": 36.0,
+        "rainfall_rate": 5.565400123596191
+    },
+    {
+        "latitude": 22.60206155909179,
+        "longitude": 88.35477155481142,
+        "altitude": 86.80101466365159,
+        "reflectivity": 36.0,
+        "rainfall_rate": 5.565400123596191
+    },
+    {
+        "latitude": 22.583948179484143,
+        "longitude": 88.35473119081566,
+        "altitude": 79.30968281440437,
+        "reflectivity": 30.385713577270508,
+        "rainfall_rate": 2.3907999992370605
+    },
+    {
+        "latitude": 22.592914266722786,
+        "longitude": 88.35588750385031,
+        "altitude": 82.99652669392526,
+        "reflectivity": 31.385713577270508,
+        "rainfall_rate": 2.779099941253662
+    },
+    {
+        "latitude": 22.66861742894116,
+        "longitude": 88.38963198099576,
+        "altitude": 121.47208569012582,
+        "reflectivity": 30.5,
+        "rainfall_rate": 2.432300090789795
+    },
+    {
+        "latitude": 22.668151923202036,
+        "longitude": 88.391047671723,
+        "altitude": 121.47208569012582,
+        "reflectivity": 30.5,
+        "rainfall_rate": 2.432300090789795
+    },
+    {
+        "latitude": 22.608966079034662,
+        "longitude": 88.40074057750432,
+        "altitude": 98.92034150846303,
+        "reflectivity": 34.71071243286133,
+        "rainfall_rate": 4.583799839019775
+    },
+    {
+        "latitude": 22.600463565787553,
+        "longitude": 88.39565022795912,
+        "altitude": 94.76292223669589,
+        "reflectivity": 31.25,
+        "rainfall_rate": 2.722899913787842
+    },
+    {
+        "latitude": 22.577930597524894,
+        "longitude": 88.3651911312576,
+        "altitude": 79.30968281440437,
+        "reflectivity": 30.5,
+        "rainfall_rate": 2.432300090789795
+    },
+    {
+        "latitude": 22.614847334338904,
+        "longitude": 88.44324977740105,
+        "altitude": 116.72645109519362,
+        "reflectivity": 31.0,
+        "rainfall_rate": 2.6224000453948975
+    },
+    {
+        "latitude": 22.59133223617427,
+        "longitude": 88.42239093362669,
+        "altitude": 103.19540421292186,
+        "reflectivity": 31.078571319580078,
+        "rainfall_rate": 2.653599977493286
+    },
+    {
+        "latitude": 22.590465340746732,
+        "longitude": 88.42268559987507,
+        "altitude": 103.19540421292186,
+        "reflectivity": 32.07291793823242,
+        "rainfall_rate": 3.081899881362915
+    },
+    {
+        "latitude": 22.57695182269895,
+        "longitude": 88.38631250373061,
+        "altitude": 86.80101466365159,
+        "reflectivity": 31.207143783569336,
+        "rainfall_rate": 2.705399990081787
+    },
+    {
+        "latitude": 22.58015986117436,
+        "longitude": 88.41533861804486,
+        "altitude": 98.92034150846303,
+        "reflectivity": 32.0,
+        "rainfall_rate": 3.04830002784729
+    },
+    {
+        "latitude": 22.575476446321478,
+        "longitude": 88.41597187353949,
+        "altitude": 98.92034150846303,
+        "reflectivity": 49.5,
+        "rainfall_rate": 42.44710159301758
+    },
+    {
+        "latitude": 22.574690993490826,
+        "longitude": 88.41603796062111,
+        "altitude": 98.92034150846303,
+        "reflectivity": 49.34859085083008,
+        "rainfall_rate": 41.49079895019531
+    },
+    {
+        "latitude": 22.573910413329642,
+        "longitude": 88.41609233790996,
+        "altitude": 98.92034150846303,
+        "reflectivity": 43.30769348144531,
+        "rainfall_rate": 16.715599060058594
+    },
+    {
+        "latitude": 22.57312359979523,
+        "longitude": 88.41613577927465,
+        "altitude": 98.92034150846303,
+        "reflectivity": 30.5,
+        "rainfall_rate": 2.432300090789795
+    },
+    {
+        "latitude": 22.568578861444855,
+        "longitude": 88.44534435940014,
+        "altitude": 112.0984591897577,
+        "reflectivity": 30.04166603088379,
+        "rainfall_rate": 2.27020001411438
+    },
+    {
+        "latitude": 22.567436122122423,
+        "longitude": 88.44530822713914,
+        "altitude": 112.0984591897577,
+        "reflectivity": 33.0,
+        "rainfall_rate": 3.5434000492095947
+    },
+    {
+        "latitude": 22.553762276127333,
+        "longitude": 88.40334414140368,
+        "altitude": 94.76292223669589,
+        "reflectivity": 32.0,
+        "rainfall_rate": 3.04830002784729
+    },
+    {
+        "latitude": 24.08448626523293,
+        "longitude": 88.01327172830294,
+        "altitude": 8080.112417381257,
+        "reflectivity": 48.0,
+        "rainfall_rate": 33.86949920654297
+    },
+    {
+        "latitude": 24.088582432178285,
+        "longitude": 88.03542796219038,
+        "altitude": 8080.112417381257,
+        "reflectivity": 48.0,
+        "rainfall_rate": 33.86949920654297
+    },
+    {
+        "latitude": 23.252917962504387,
+        "longitude": 89.5168520115809,
+        "altitude": 6430.656939966604,
+        "reflectivity": 34.657894134521484,
+        "rainfall_rate": 4.547500133514404
+    },
+    {
+        "latitude": 23.23835100038675,
+        "longitude": 89.5265949258021,
+        "altitude": 6430.656939966604,
+        "reflectivity": 40.554054260253906,
+        "rainfall_rate": 11.044500350952148
+    },
+    {
+        "latitude": 22.569236846914432,
+        "longitude": 88.41613987649318,
+        "altitude": 314.49056770280004,
+        "reflectivity": 34.05356979370117,
+        "rainfall_rate": 4.152200222015381
+    },
+    {
+        "latitude": 22.56845548141051,
+        "longitude": 88.41611598092639,
+        "altitude": 314.49056770280004,
+        "reflectivity": 37.411766052246094,
+        "rainfall_rate": 6.882800102233887
+    },
+    {
+        "latitude": 22.567668864015257,
+        "longitude": 88.41608058285559,
+        "altitude": 314.49056770280004,
+        "reflectivity": 38.97793960571289,
+        "rainfall_rate": 8.712300300598145
+    },
+    {
+        "latitude": 22.566882766444778,
+        "longitude": 88.41603382065603,
+        "altitude": 314.49056770280004,
+        "reflectivity": 38.08461380004883,
+        "rainfall_rate": 7.616300106048584
+    },
+    {
+        "latitude": 22.521342053302924,
+        "longitude": 88.3456220469721,
+        "altitude": 277.16894329339266,
+        "reflectivity": 30.5,
+        "rainfall_rate": 2.432300090789795
+    },
+    {
+        "latitude": 22.521438412111284,
+        "longitude": 88.3449125238724,
+        "altitude": 277.16894329339266,
+        "reflectivity": 33.10447692871094,
+        "rainfall_rate": 3.5994999408721924
+    },
+    {
+        "latitude": 22.521543604606737,
+        "longitude": 88.34420446978993,
+        "altitude": 277.16894329339266,
+        "reflectivity": 36.6136360168457,
+        "rainfall_rate": 6.103799819946289
+    },
+    {
+        "latitude": 22.5216567704641,
+        "longitude": 88.34350302437744,
+        "altitude": 277.16894329339266,
+        "reflectivity": 36.712120056152344,
+        "rainfall_rate": 6.195000171661377
+    },
+    {
+        "latitude": 22.552186607883854,
+        "longitude": 88.31397295441674,
+        "altitude": 239.96479859016836,
+        "reflectivity": 31.262659072875977,
+        "rainfall_rate": 2.728100061416626
+    },
+    {
+        "latitude": 22.551272155647336,
+        "longitude": 88.29333282206368,
+        "altitude": 314.49056770280004,
+        "reflectivity": 34.37333297729492,
+        "rainfall_rate": 4.356900215148926
+    },
+    {
+        "latitude": 22.552017627066466,
+        "longitude": 88.29306019854874,
+        "altitude": 314.49056770280004,
+        "reflectivity": 30.164382934570312,
+        "rainfall_rate": 2.3125
+    },
+    {
+        "latitude": 22.55835957736406,
+        "longitude": 88.35935057031764,
+        "altitude": 199.67875698395073,
+        "reflectivity": 34.0,
+        "rainfall_rate": 4.118899822235107
+    },
+    {
+        "latitude": 22.558281470988472,
+        "longitude": 88.35917456745995,
+        "altitude": 199.67875698395073,
+        "reflectivity": 34.0,
+        "rainfall_rate": 4.118899822235107
+    },
+    {
+        "latitude": 22.558273593663564,
+        "longitude": 88.3470995890028,
+        "altitude": 295.79655919596553,
+        "reflectivity": 31.5,
+        "rainfall_rate": 2.8273000717163086
+    },
+    {
+        "latitude": 22.558348208483803,
+        "longitude": 88.34692344724031,
+        "altitude": 295.79655919596553,
+        "reflectivity": 31.5,
+        "rainfall_rate": 2.8273000717163086
+    }
+]
