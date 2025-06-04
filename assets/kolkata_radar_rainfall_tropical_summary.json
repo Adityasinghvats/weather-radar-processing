@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "title": "Kolkata Weather Radar Rainfall Summary",
+    "total_points": 77201,
+    "radar_location": {
+      "latitude": 22.5697,
+      "longitude": 88.3697
+    },
+    "created": "2025-06-04T10:34:06.784740"
+  },
+  "statistics": {
+    "reflectivity": {
+      "min_dbz": 0.0,
+      "max_dbz": 95.5,
+      "mean_dbz": 48.36833190917969
+    },
+    "rainfall": {
+      "min_mm_hr": 0.0,
+      "max_mm_hr": 112734.4140625,
+      "mean_mm_hr": 7611.732421875
+    }
+  },
+  "intensity_distribution": {
+    "Very Heavy": 38794,
+    "Light": 15773,
+    "No Rain": 8480,
+    "Heavy": 7701,
+    "Moderate": 6453
+  },
+  "sample_data": [
+    {
+      "latitude": 24.239075302571994,
+      "longitude": 88.33774814791347,
+      "reflectivity_dbz": 95.5,
+      "rainfall_rate_mm_hr": 112734.4140625,
+      "rainfall_intensity_category": "Very Heavy",
+      "timestamp": "2025-04-27 00:22:33"
+    },
+    {
+      "latitude": 23.090625033686994,
+      "longitude": 88.26984266065068,
+      "reflectivity_dbz": 95.5,
+      "rainfall_rate_mm_hr": 112734.4140625,
+      "rainfall_intensity_category": "Very Heavy",
+      "timestamp": "2025-04-27 00:22:33"
+    },
+    {
+      "latitude": 22.834034848300412,
+      "longitude": 88.3797156531455,
+      "reflectivity_dbz": 95.5,
+      "rainfall_rate_mm_hr": 112734.4140625,
+      "rainfall_intensity_category": "Very Heavy",
+      "timestamp": "2025-04-27 00:22:33"
+    },
+    {
+      "latitude": 21.376332733425937,
+      "longitude": 89.88783393849354,
+      "reflectivity_dbz": 95.5,
+      "rainfall_rate_mm_hr": 112734.4140625,
+      "rainfall_intensity_category": "Very Heavy",
+      "timestamp": "2025-04-27 00:22:33"
+    },
+    {
+      "latitude": 22.800993026423853,
+      "longitude": 88.37846157775121,
+      "reflectivity_dbz": 95.5,
+      "rainfall_rate_mm_hr": 112734.4140625,
+      "rainfall_intensity_category": "Very Heavy",
+      "timestamp": "2025-04-27 00:22:33"
+    },
+    {
+      "latitude": 23.679959526730684,
+      "longitude": 87.15238695921029,
+      "reflectivity_dbz": 95.5,
+      "rainfall_rate_mm_hr": 112734.4140625,
+      "rainfall_intensity_category": "Very Heavy",
+      "timestamp": "2025-04-27 00:22:33"
+    },
+    {
+      "latitude": 20.916287584889883,
+      "longitude": 88.87694377551466,
+      "reflectivity_dbz": 95.5,
+      "rainfall_rate_mm_hr": 112734.4140625,
+      "rainfall_intensity_category": "Very Heavy",
+      "timestamp": "2025-04-27 00:22:33"
+    },
+    {
+      "latitude": 22.87738182638543,
+      "longitude": 87.10323341346923,
+      "reflectivity_dbz": 95.5,
+      "rainfall_rate_mm_hr": 112734.4140625,
+      "rainfall_intensity_category": "Very Heavy",
+      "timestamp": "2025-04-27 00:22:33"
+    },
+    {
+      "latitude": 23.43553802193264,
+      "longitude": 87.9882415717214,
+      "reflectivity_dbz": 95.5,
+      "rainfall_rate_mm_hr": 112734.4140625,
+      "rainfall_intensity_category": "Very Heavy",
+      "timestamp": "2025-04-27 00:22:33"
+    },
+    {
+      "latitude": 22.452758615623388,
+      "longitude": 88.49617970588228,
+      "reflectivity_dbz": 95.5,
+      "rainfall_rate_mm_hr": 112734.4140625,
+      "rainfall_intensity_category": "Very Heavy",
+      "timestamp": "2025-04-27 00:22:33"
+    }
+  ]
+}
