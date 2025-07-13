@@ -157,15 +157,42 @@ class RadarDataProcessor:
         
         print(f"Selected sweep data shape: {refl.shape}")
         
+        # Calculate altitude for each point
+        # Get radar location
+        radar_lat = self.ds.attrs.get('radar_latitude', 22.5697)
+        radar_lon = self.ds.attrs.get('radar_longitude', 88.3697)
+        radar_alt = self.ds.attrs.get('radar_altitude', 30.0)  # meters above sea level
+    
+        # Calculate altitude using elevation angle and distance from radar
+        print("Calculating altitude for each data point...")
+        
         # Flatten arrays for DataFrame
         lats_flat = lats.flatten()
         lons_flat = lons.flatten()
         refl_flat = refl.flatten()
-        
+    
+        # Calculate distance from radar and altitude
+        altitudes = []
+        for i in range(len(lats_flat)):
+            if np.isfinite(lats_flat[i]) and np.isfinite(lons_flat[i]):
+                # Calculate distance from radar (in km)
+                lat_diff = lats_flat[i] - radar_lat
+                lon_diff = lons_flat[i] - radar_lon
+                distance_km = np.sqrt(lat_diff**2 + lon_diff**2) * 111.0  # Convert degrees to km
+    
+                # Calculate altitude using elevation angle
+                # altitude = radar_altitude + distance * tan(elevation_angle)
+                elevation_rad = np.radians(elevation_angle)
+                altitude = radar_alt + (distance_km * 1000 * np.tan(elevation_rad))  # Convert to meters
+                altitudes.append(altitude)
+            else:
+                altitudes.append(np.nan)
+    
         # Create DataFrame
         df = pd.DataFrame({
             'latitude': lats_flat,
             'longitude': lons_flat,
+            'altitude': altitudes,  # Add altitude column
             'reflectivity_dbz': refl_flat,
             'sweep_number': sweep_idx,
             'elevation_angle': elevation_angle
@@ -177,13 +204,15 @@ class RadarDataProcessor:
             (df['reflectivity_dbz'] >= min_reflectivity) &
             (df['reflectivity_dbz'] <= max_reflectivity) &  # Remove high reflectivity values
             np.isfinite(df['latitude']) & 
-            np.isfinite(df['longitude'])
+            np.isfinite(df['longitude']) &
+            np.isfinite(df['altitude'])  # Also filter valid altitude
         )
         
         df = df[valid_mask].copy()
         
         print(f"Valid data points: {len(df)}")
         print(f"Reflectivity range: {df['reflectivity_dbz'].min():.1f} to {df['reflectivity_dbz'].max():.1f} dBZ")
+        print(f"Altitude range: {df['altitude'].min():.1f} to {df['altitude'].max():.1f} meters")
         print(f"Using elevation angle: {elevation_angle:.2f}° (sweep {sweep_idx})")
         
         if len(df) == 0:
@@ -199,7 +228,7 @@ class RadarDataProcessor:
             df['rainfall_rate_mm_hr'] = self.alternative_zr_relations(
                 df['reflectivity_dbz'], zr_relation
             )
-    
+
         # Add additional calculated fields
         df['rainfall_intensity_category'] = self.categorize_rainfall_intensity(df['rainfall_rate_mm_hr'])
         
@@ -210,11 +239,12 @@ class RadarDataProcessor:
             df['timestamp'] = pd.to_datetime(self.ds.time.values[0])
         else:
             df['timestamp'] = datetime.now()
-    
+
         if hasattr(self.ds, 'attrs'):
             df.attrs = {
-                'radar_latitude': self.ds.attrs.get('radar_latitude', 22.5697),
-                'radar_longitude': self.ds.attrs.get('radar_longitude', 88.3697),
+                'radar_latitude': radar_lat,
+                'radar_longitude': radar_lon,
+                'radar_altitude': radar_alt,
                 'max_range_km': self.ds.attrs.get('max_range_km', 250),
                 'zr_relation': zr_relation,
                 'min_reflectivity': min_reflectivity,
@@ -224,16 +254,16 @@ class RadarDataProcessor:
                 'sweep_selection': 'lowest_elevation',
                 'created': datetime.now().isoformat()
             }
-    
+
         # Sort by rainfall rate (highest first)
         df = df.sort_values('rainfall_rate_mm_hr', ascending=False)
-    
+
         print(f"Rainfall rate statistics:")
         print(f"  Min: {df['rainfall_rate_mm_hr'].min():.2f} mm/hr")
         print(f"  Max: {df['rainfall_rate_mm_hr'].max():.2f} mm/hr")
         print(f"  Mean: {df['rainfall_rate_mm_hr'].mean():.2f} mm/hr")
         print(f"  Median: {df['rainfall_rate_mm_hr'].median():.2f} mm/hr")
-    
+
         return df
     
     def categorize_rainfall_intensity(self, rainfall_rates):
@@ -264,6 +294,7 @@ class RadarDataProcessor:
         df_export = df.copy()
         df_export['latitude'] = df_export['latitude'].round(6)
         df_export['longitude'] = df_export['longitude'].round(6)
+        df_export['altitude'] = df_export['altitude'].round(1)  # Round altitude to 1 decimal place
         df_export['reflectivity_dbz'] = df_export['reflectivity_dbz'].round(2)
         df_export['rainfall_rate_mm_hr'] = df_export['rainfall_rate_mm_hr'].round(3)
         
@@ -274,7 +305,8 @@ class RadarDataProcessor:
         summary_filename = filename.replace('.csv', '_summary.csv')
         summary_stats = df.groupby('rainfall_intensity_category').agg({
             'rainfall_rate_mm_hr': ['count', 'mean', 'min', 'max'],
-            'reflectivity_dbz': ['mean', 'min', 'max']
+            'reflectivity_dbz': ['mean', 'min', 'max'],
+            'altitude': ['mean', 'min', 'max']  # Add altitude statistics
         }).round(3)
         
         summary_stats.to_csv(summary_filename)
@@ -420,33 +452,12 @@ def main():
         print("\n" + "="*50)
         print("SAVING TO CSV")
         print("="*50)
-        csv_file = processor.save_to_csv(df, f'kolkata_radar_rainfall_{zr_relation}_lowest_elevation.csv')
+        csv_file = processor.save_to_csv(df, f'kolkata2_radar_rainfall_{zr_relation}_lowest_elevation.csv')
         
         # Save to JSON (multiple formats)
         print("\n" + "="*50)
         print("SAVING TO JSON")
         print("="*50)
-        
-        # Regular JSON format
-        json_file = processor.save_to_json(
-            df, 
-            f'kolkata_radar_rainfall_{zr_relation}_lowest_elevation.json',
-            format_type='records'
-        )
-        
-        # GeoJSON format (good for mapping applications)
-        geojson_file = processor.save_to_json(
-            df, 
-            f'kolkata_radar_rainfall_{zr_relation}_lowest_elevation.geojson',
-            format_type='geojson'
-        )
-        
-        # Summary JSON
-        summary_file = processor.save_to_json(
-            df, 
-            f'kolkata_radar_rainfall_{zr_relation}_lowest_elevation_summary.json',
-            format_type='summary'
-        )
         
         # Print final summary
         print("\n" + "="*50)
@@ -454,15 +465,16 @@ def main():
         print("="*50)
         print(f"Files created:")
         print(f"  • CSV: {csv_file}")
-        print(f"  • JSON: {json_file}")
-        print(f"  • GeoJSON: {geojson_file}")
-        print(f"  • Summary: {summary_file}")
+        # print(f"  • JSON: {json_file}")
+        # print(f"  • GeoJSON: {geojson_file}")
+        # print(f"  • Summary: {summary_file}")
         print(f"\nData summary:")
         print(f"  • Total points: {len(df):,}")
         print(f"  • Selected sweep: {df.attrs.get('selected_sweep', 0)}")
         print(f"  • Elevation angle: {df.attrs.get('elevation_angle', 0.5):.2f}°")
         print(f"  • Reflectivity range: {df['reflectivity_dbz'].min():.1f} to {df['reflectivity_dbz'].max():.1f} dBZ")
         print(f"  • Rainfall range: {df['rainfall_rate_mm_hr'].min():.3f} - {df['rainfall_rate_mm_hr'].max():.3f} mm/hr")
+        print(f"  • Altitude range: {df['altitude'].min():.1f} to {df['altitude'].max():.1f} meters")  # Add altitude range
         print(f"  • Z-R relationship: {zr_relation}")
         print(f"  • Max reflectivity threshold: 60 dBZ")
         
@@ -477,6 +489,9 @@ def main():
         print(f"Error processing radar data: {e}")
         import traceback
         traceback.print_exc()
+
+
+        
 
 if __name__ == "__main__":
     main()

@@ -1,8 +1,0 @@
-,rainfall_rate_mm_hr,rainfall_rate_mm_hr,rainfall_rate_mm_hr,rainfall_rate_mm_hr,reflectivity_dbz,reflectivity_dbz,reflectivity_dbz
-,count,mean,min,max,mean,min,max
-rainfall_intensity_category,,,,,,,
-Heavy,2147,25.634,10.383,49.535,43.86,39.0,48.5
-Light,4225,0.733,0.104,2.363,20.478,11.0,30.0
-Moderate,1729,5.362,2.566,9.564,34.488,30.5,38.5
-No Rain,2454,0.046,0.0,0.096,5.349,0.0,10.5
-Very Heavy,2579,152.216,53.781,328.354,54.448,49.0,60.0

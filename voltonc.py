@@ -459,9 +459,9 @@ def main():
     
     # List of vol files to process
     vol_files = [
-        '2025042623500000V.vol',
-        '2025042623500000W.vol', 
-        '2025042623500000dBZ.vol'
+        '2025042623000000V.vol',
+        '2025042623000000W.vol', 
+        '2025042623000000dBZ.vol'
     ]
     
     # Check if files exist
@@ -477,7 +477,7 @@ def main():
         dataset = processor.process_vol_files(existing_files)
         
         # Save to NetCDF
-        output_file = 'kolkata_radar_data.nc'
+        output_file = '2025042623000000.nc'
         dataset.to_netcdf(output_file)
         print(f"\nRadar data saved to {output_file}")
         
@@ -495,18 +495,6 @@ def main():
             print(f"  Reflectivity: {valid_refl.min():.1f} to {valid_refl.max():.1f} dBZ")
         else:
             print("  Reflectivity: No valid data found")
-        
-        # Example usage
-        print("\nExample usage:")
-        print("# To get reflectivity near a specific location:")
-        print("import xarray as xr")
-        print("import numpy as np")
-        print("ds = xr.open_dataset('kolkata_radar_data.nc')")
-        print("target_lat, target_lon = 22.57, 88.37")
-        print("lat_diff = np.abs(ds.latitude - target_lat)")
-        print("lon_diff = np.abs(ds.longitude - target_lon)")
-        print("min_idx = (lat_diff + lon_diff).argmin()")
-        print("refl_value = ds.reflectivity.values.flat[min_idx]")
         
     except Exception as e:
         print(f"Error processing radar data: {e}")
