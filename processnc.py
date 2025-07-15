@@ -427,7 +427,7 @@ def main():
     
     try:
         # Initialize processor
-        processor = RadarDataProcessor('kolkata_radar_data.nc')
+        processor = RadarDataProcessor('2025042623400000.nc')
         
         # Process data to DataFrame (using lowest elevation sweep only)
         print("\n" + "="*50)
