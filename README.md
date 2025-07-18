@@ -147,7 +147,7 @@ python processnc.py
 ```
 
 **What this does:**
-- **You will NetCDF files to upload to our backend endpoint for getting the data for plotting**.
+- **You will need NetCDF files to upload to our backend endpoint for getting the data for plotting**.
 - Reads NetCDF radar data
 - Selects lowest elevation sweep (closest to ground)
 - Applies Marshall-Palmer Z-R relationship
